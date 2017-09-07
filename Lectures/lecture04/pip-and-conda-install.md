@@ -62,9 +62,10 @@ In your project's git directory, create an `environment.yml` file that specifies
 ```
 name: test-environment
 dependencies:
-  -numpy
-  -ipython
-  -pytest
+  - python=3.6
+  - numpy
+  - ipython
+  - pytest
   ... etc
 
 ```
